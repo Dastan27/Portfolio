@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/slider.js"></script>
+
+    <!-- Slick Carousal CDN -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" />
+
+    <title>My Portfolio</title>
+    <script src="./js/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_bQBW3ocSXD87A1TjFqLgD");
+        })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/silder.css">
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="hamberger" />
+        </button>
+        <div class="mobile-nav">
+            <img src="./images/rlogo.svg" alt="logo">
+            <button class="times"><img src="./images/x.svg" alt=""></button>
+            <ul>
+                <li><a href="#home" class="home-h">Home</a></li>
+                <li><a href="#about" class="about-h">About</a></li>
+                <li><a href="#projects" class="projects-h">Projects</a></li>
+                <li><a href="#skills" class="skills-h">Skills and Tech Stacks</a></li>
+                <li><a href="#contact" class="contact-h">Contact</a></li>
+            </ul>
+        </div>
+        <header>
+            <div id="home" class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="./images/rlogo.svg" alt="logo">
+                        </div>
+                        <div>
+                            <a href="#home">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#projects">Projects</a>
+                            <a href="#skills">Skills & Tech Stacks</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button class="btn btn-primary contact-btn"><a href="#contact" id="btn-contact"> Contact </a></button>
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/profile.png" alt="Profile">
+                    </div>
+                    <div class="right flex-1">
+                        <h6>Rishabh Anand</h6>
+                        <h3>I'm a <span>Full Stack Web Developer</span></h3>
+                        <p>My portfolio is a representation of all that I've learned and accomplished as a student.</p>
+                        <div>
+                            <button class="btn btn-secondary download-cv">DOWNLOAD CV</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="about" class="about">
+            <div class="container flex items-center">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/profile2.jpg" alt="">
+                </div>
+                <div class="flex-1">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello! I'm Rishabh Anand</h3>
+                    <p>A Full-Stack Web Developer currently living in Patna, India. I love combining the worlds of logic and creative design to make a eye-catching, accessible, and user-friendly websites and applications.
+                        Technology leads, society follows. The move towards increasing the inclusivity and diversity in the industry through representation is of importance to me.
+                        I'm excited to make the leap and continue refining my skills with the right company.  
+                    </p>
+                    <div class="social">
+                        <a target="_blank" href="https://www.linkedin.com/in/rishabhanand27/"><img src="./images/linkedin.svg"
+                                alt=""></a>
+                        <a target="_blank" href="https://github.com/Dastan27"><img src="./images/github.svg" alt=""></a>
+                        <a target="_blank" href="https://twitter.com/R_anand27"><img src="./images/twitter.svg" alt=""></a>
+                        <a target="_blank" href="https://medium.com/@rishabhanand02"><img src="./images/medium.svg" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="projects" class="freelancer">
+            <h1 class="section-heading"><span>My</span> Projects</h1>
+            <p>Some of the Projects I deployed while learning.</p>
+        </section>
+        <section class="projects">
+            <div class="container">
+                <div class="slider-wrapper">
+                    <div class="slides">
+                        <img src="./images/strawberryNet.png" alt="carousel">
+                        <div class="details">
+                            <h2>Strawberrynet.com Clone</h2>
+                            <div class="top">
+                                <p>An e-commerce web application which provides all kinds of personal products.</p>
+                                <h4>Features:</h4>
+                                <ul>
+                                    <li>Users can scroll through the products.</li>
+                                    <li>Register and Login.</li>
+                                    <li>Add to the cart and checkout.</li>
+                                    <li>Payment through debit card.</li>
+                                </ul>
+                                <p>
+                                <h4>Tech Stack:</h4> HTML | CSS | JavaScript | NodeJS | MongoDB</p>
+                            </div>
+                            <div class="socials">
+                                <a target="_blank" href="https://github.com/Dastan27/strawberrynet-1"><img src="./images/git.svg"
+                                        alt=""></a>
+                                <a target="_blank" href="https://immense-waters-48770.herokuapp.com/products"><img src="./images/deploy.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slides">
+                        <img src="./images/languageTranlator.png" alt="img-carousal" />
+                        <div class="details">
+                            <h2>Language Translator</h2>
+                            <div class="top">
+
+                                <p>A mini web application to translate words/paragraphs from English to other languages.
+                                </p>
+                                <h4>Features:</h4>
+                                <ul>
+                                    <li>Accuracy and clarity.</li>
+                                </ul>
+                                <p>
+                                <h4>Tech Stack:</h4> HTML | CSS | JavaScript | NodeJS</p>
+                            </div>
+
+                            <div class="socials">
+                                <a target="_blank" href="https://github.com/Dastan27/LanguageTranslatorApp"><img src="./images/git.svg" alt=""></a>
+                                <a target="_blank" href="https://language-translator-app.vercel.app/"><img src="./images/deploy.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills">
+            <div class="container">
+                <h1 class="section-heading"><span>Skills</span> and <span>Tech Stacks</span></h1>
+                <div class="tech-cont">
+                    <h2>Frontend</h2>
+                    <!-- ................................... -->
+                    <div class="tech-stack">
+                        <div>
+                            <img src='./images/javascript-seeklogo.com.svg' alt='' />
+                            <p>JavaScript</p>
+                        </div>
+                        <div>
+                            <img src="./images/html5-original.svg" alt="" />
+                            <p>HTML</p>
+                        </div>
+                        <div>
+                            <img src="./images/css3-original.svg" alt="" />
+                            <p>CSS</p>
+                        </div>
+                        <div>
+                            <img src="./images/react-original.svg" alt="" />
+                            <p>React</p>
+                        </div>
+                        <div>
+                            <img src="./images/redux.svg" alt="" />
+                            <p>Redux</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-cont">
+                    <h2>Backend</h2>
+                    <div class="tech-stack justify-center">
+                        <div>
+                            <img src="./images/node-js.svg" alt="" />
+                            <p>NodeJS</p>
+                        </div>
+                        <div>
+                            <img src="./images//mongodb-original.svg" alt="" />
+                            <p>MongoDB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>Me</span></h1>
+                <p>I would love to hear your thoughts.</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/linkedin.svg" alt="">
+                        <h1>Connect On</h1>
+                        <h6>LinkedIn</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/envelope.svg" alt="">
+                        <h1>Email At</h1>
+                        <h6>rishabhanand02@gmail.com</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/location.svg" alt="">
+                        <h1>Visit</h1>
+                        <h6>Road No.-2, North J.P. Nagar, Patna, Bihar-800025. India</h6>
+                    </div>
+                </div>
+                <form action="">
+                    <div class="input-wrap">
+                        <input id="name" type="text" placeholder="Your Name *">
+                        <input id="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <textarea name="" id="msg" cols="30" rows="8" placeholder="Yore Message"></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button onclick="sendMail()" class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-socials">
+                <a target="_blank" href="https://drive.google.com/file/d/1lk3Tk0ZvOqbHyGdwZ8qIWbhVkGTbdJp0/view?usp=sharing"><img
+                        src="./images/resume.svg" alt=""></a>
+                <a target="_blank" href="https://www.linkedin.com/in/rishabhanand27/"><img src="./images/linkedin.svg" alt=""></a>
+                <a target="_blank" href="https://github.com/Dastan27"><img src="./images/github.svg" alt=""></a>
+                <a target="_blank" href="https://twitter.com/R_anand27"><img src="./images/twitter.svg" alt=""></a>
+                <a target="_blank" href="https://medium.com/@rishabhanand02"><img src="./images/medium.svg" alt=""></a>
+            </div>
+            <div>
+                Copyright 2021. Rishabh Anand. All Right Reserverd.
+            </div>
+        </footer>
+    </div>
+    <script src="./js/App.js"></script>
+</body>
+
+</html>
