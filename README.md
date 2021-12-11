@@ -19,5 +19,5 @@ My personal portfolio. Accessible and responsive built with:
 - JavaScript.
 ## Authors
 
-- Rishabh Anand -  https://portfolio-vert-alpha-93.vercel.app/
+- Rishabh Anand -  https://portfolio-git-main-rishabhanand02-gmailcom.vercel.app/
 
